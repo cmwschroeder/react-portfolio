@@ -17,7 +17,7 @@ function NavBar({ handlePageChange }) {
                         <li><a href="/resume.pdf" target="_blank">Resume</a></li>
                     </ul>
                 </div>
-                <a href="#about" className="btn btn-ghost normal-case text-xl">Porfolio</a>
+                <a href="#home" onClick={() => handlePageChange('About')} className="btn btn-ghost normal-case text-xl">Porfolio</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
