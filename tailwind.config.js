@@ -4,7 +4,9 @@ module.exports = {
     "./src/App.js",
     "./src/components/Porfolio.js",
     "./src/components/NavBar.js",
-    "./src/components/pages/About.js"
+    "./src/components/pages/About.js",
+    "./src/components/Hero.js",
+    "./src/components/Footer.js"
   ],
   theme: {
     extend: {},
