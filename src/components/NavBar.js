@@ -21,9 +21,9 @@ function NavBar({ handlePageChange }) {
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                    <li><a href="#about"  onClick={() => handlePageChange('About')}>About Me</a></li>
-                    <li><a href="#projects"  onClick={() => handlePageChange('Projects')}>Projects</a></li>
-                    <li><a href="#contact"  onClick={() => handlePageChange('Contact')}>Contact Me</a></li>
+                    <li><a href="#about" onClick={() => handlePageChange('About')}>About Me</a></li>
+                    <li><a href="#projects" onClick={() => handlePageChange('Projects')}>Projects</a></li>
+                    <li><a href="#contact" onClick={() => handlePageChange('Contact')}>Contact Me</a></li>
                     <li><a href="/resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </div>
