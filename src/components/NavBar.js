@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavBar({ handlePageChange }) {
+function NavBar({ currentPage, handlePageChange }) {
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -11,19 +11,19 @@ function NavBar({ handlePageChange }) {
                         </svg>
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="#about" onClick={() => handlePageChange('About')}>About Me</a></li>
-                        <li><a href="#projects" onClick={() => handlePageChange('Projects')}>Projects</a></li>
-                        <li><a href="#contact" onClick={() => handlePageChange('Contact')}>Contact Me</a></li>
+                        <li><a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'btn-active' : ''}>About Me</a></li>
+                        <li><a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'btn-active' : ''}>Projects</a></li>
+                        <li><a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'btn-active' : ''}>Contact Me</a></li>
                         <li><a href="/resume.pdf" target="_blank">Resume</a></li>
                     </ul>
                 </div>
-                <a href="#home" onClick={() => handlePageChange('About')} className="btn btn-ghost normal-case text-xl">Porfolio</a>
+                <a href="#home" onClick={() => handlePageChange('About')} className="btn btn-ghost normal-case text-xl">Christian Schroeder</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                    <li><a href="#about" onClick={() => handlePageChange('About')}>About Me</a></li>
-                    <li><a href="#projects" onClick={() => handlePageChange('Projects')}>Projects</a></li>
-                    <li><a href="#contact" onClick={() => handlePageChange('Contact')}>Contact Me</a></li>
+                    <li><a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'btn-active' : ''}>About Me</a></li>
+                    <li><a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'btn-active' : ''}>Projects</a></li>
+                    <li><a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'btn-active' : ''}>Contact</a></li>
                     <li><a href="/resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </div>

@@ -22,7 +22,7 @@ function Portfolio() {
 
   return (
     <div>
-      <NavBar handlePageChange={handlePageChange} />
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <Hero />
       {renderPage()}
       <Footer />
