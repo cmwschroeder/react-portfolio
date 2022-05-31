@@ -8,7 +8,8 @@ module.exports = {
     "./src/components/Hero.js",
     "./src/components/Footer.js",
     "./src/components/Project.js",
-    "./src/components/pages/Projects.js"
+    "./src/components/pages/Projects.js",
+    "./src/components/pages/Contact.js"
   ],
   theme: {
     extend: {},
