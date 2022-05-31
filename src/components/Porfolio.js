@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Hero from './Hero';
 import About from './pages/About';
 import Footer from './Footer';
+import Projects from './pages/Projects'
 
 function Portfolio() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -11,9 +12,9 @@ function Portfolio() {
     if (currentPage === 'About') {
       return <About />;
     }
-    // if (currentPage === 'Projects') {
-    //   return <Projects />;
-    // }
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
     // return <Contact />;
     return;
   };

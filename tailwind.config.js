@@ -6,7 +6,9 @@ module.exports = {
     "./src/components/NavBar.js",
     "./src/components/pages/About.js",
     "./src/components/Hero.js",
-    "./src/components/Footer.js"
+    "./src/components/Footer.js",
+    "./src/components/Project.js",
+    "./src/components/pages/Projects.js"
   ],
   theme: {
     extend: {},
