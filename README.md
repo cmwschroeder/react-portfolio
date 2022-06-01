@@ -19,8 +19,11 @@ This is a react portfolio designed for me, Christian Schroeder. This portfolio l
 | -------- | ------|
 | HTML |   |
 | Javascript |    |
+| React | https://reactjs.org/ |
 | Node.js | https://nodejs.org/en/ |
 | npm | https://www.npmjs.com/ |
+| tailwind | https://tailwindcss.com/ |
+| daisyui | https://daisyui.com/ |
 
 ## Installation
 
