@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3a083a55.css",
-    "main.js": "/react-portfolio/static/js/main.30a1ca2a.js",
+    "main.js": "/react-portfolio/static/js/main.5755f701.js",
     "static/media/artketplace.png": "/react-portfolio/static/media/artketplace.68c47663b5850f9fc7b6.png",
     "static/media/pethub.png": "/react-portfolio/static/media/pethub.0084ea56f058335a6f49.png",
     "static/media/black-and-gold-background.jpg": "/react-portfolio/static/media/black-and-gold-background.45ea3b27eb3c0c64a180.jpg",
     "static/media/my_picture.jpeg": "/react-portfolio/static/media/my_picture.e100f300a28c97a6f03c.jpeg",
     "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.777b829e878159216f51.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.f0f20a21a1da5956685a.pdf",
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.4279026c8a72c33a70eb.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.713007909dc2a0454b5a.png",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.ca96283f0707be43a9d6.png",
     "index.html": "/react-portfolio/index.html",
     "main.3a083a55.css.map": "/react-portfolio/static/css/main.3a083a55.css.map",
-    "main.30a1ca2a.js.map": "/react-portfolio/static/js/main.30a1ca2a.js.map"
+    "main.5755f701.js.map": "/react-portfolio/static/js/main.5755f701.js.map"
   },
   "entrypoints": [
     "static/css/main.3a083a55.css",
-    "static/js/main.30a1ca2a.js"
+    "static/js/main.5755f701.js"
   ]
 }
