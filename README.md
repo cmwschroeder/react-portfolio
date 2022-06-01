@@ -28,6 +28,9 @@ After cloning the repository run an npm install in the root directory. This will
 
 ## Usage
 
+This project is a portfolio page. On visiting the site you will be on the about me section. Every page will have the navbar, footer, and a picture of me and my name. The about me section has a short bio about me. Clicking any links in the navbar will take you to a new "page" with new content. The projects page has 6 of my past projects, clicking on the deployed site button will take you to the site that the project is deployed at. The github repo link will take you to the github repo of the project. The contact section has 3 input fields that when clicked in and out of will notify you if there is not content inside of them. The email input also will tell you if the inputted email matches an email address. The resume link will take you to a pdf of my resume. The icons in the footer when clicked on will take you to my github profile page, linkedin profile page, or my stackoverflow profile page. Thanks for viewing my portfolio! Here is a gif of the site in action:  
+
+![Gif of going through the webpage](./gif/react-portfolio.gif)
 
 ## Questions
 If you have any questions you can reach me at:  
