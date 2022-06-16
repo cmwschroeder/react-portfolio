@@ -56,7 +56,7 @@ function Contact() {
             <div className="card w-3/4 bg-base-100 shadow-xl my-6">
                 <div className="card-body w-full">
 
-                    <h2 className="card-title text-4xl">Contact Me:</h2>
+                    <h2 className="card-title text-4xl">Contact Me: (Doesn't actually send)</h2>
 
                     <div className="form-control w-5/6 mx-auto">
                         <label className="label">
